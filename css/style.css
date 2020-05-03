@@ -1,3 +1,44 @@
-.retr {
-  color: 0;
+body {
+  background-color: #E5E5E5;
+}
+
+.menu__list {
+  list-style: none;
+}
+.menu__list li {
+  display: inline;
+}
+.menu__list li a {
+  text-decoration: none;
+}
+
+.header-inner {
+  background-color: #FFFFFF;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-template-rows: 70px;
+}
+.header-inner .logo {
+  margin-left: 140px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.buttons {
+  text-align: right;
+}
+
+.buttons-registr {
+  margin-right: 140px;
+  margin-left: 20px;
+  margin-top: 18px;
+  margin-bottom: 18px;
+}
+
+.buttons-login {
+  margin-top: 18px;
+  margin-bottom: 18px;
+  margin-left: 30px;
 }

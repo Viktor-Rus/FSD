@@ -1,3 +1,52 @@
-.retr {
-    color: red($color: #000000);
+$background-kit: #E5E5E5;
+$background-body: #FFFFFF;
+
+body {
+    background-color: $background-kit;
+}
+
+.menu__list {
+    list-style: none;
+
+    li {
+        display: inline;
+
+        a {
+            text-decoration: none;
+        }
+    }
+}
+
+.header-inner {
+    background-color: $background-body;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-template-rows: 70px;
+
+    .logo {
+        margin-left: 140px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+}
+
+;
+
+.buttons {
+    text-align: right;
+}
+
+.buttons-registr {
+    margin-right: 140px;
+    margin-left: 20px;
+    margin-top: 18px;
+    margin-bottom: 18px;
+}
+
+.buttons-login {
+    margin-top: 18px;
+    margin-bottom: 18px;
+    margin-left: 30px;
 }
