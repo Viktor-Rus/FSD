@@ -201,3 +201,73 @@ li.menu-nav__items--active {
   text-transform: uppercase;
   color: #1f2041;
 }
+
+.subscribe {
+  padding-top: 104px;
+}
+
+.subscribe__text {
+  display: grid;
+  height: 84px;
+  width: 247px;
+  margin: 0;
+}
+.subscribe__text-header {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 15px;
+  text-transform: uppercase;
+  color: #1f2041;
+}
+
+.subscribe__text-descr {
+  justify-content: flex-end;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: rgba(31, 32, 65, 0.75);
+}
+
+.subscribe__email-form {
+  height: 44px;
+  width: 216px;
+}
+
+.subscribe__email-submit {
+  padding: 0;
+}
+
+.submit-email {
+  background: url(../img/arrow_forward.jpg) no-repeat;
+  width: 44px;
+  height: 44px;
+}
+
+.footer-creative {
+  height: 367px;
+  text-align: center;
+}
+
+.logo {
+  padding-top: 100px;
+}
+
+.logo-text {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: rgba(31, 32, 65, 0.75);
+  text-align: center;
+  padding-bottom: 25px;
+}
+
+.footer__face-img {
+  padding-right: 20px;
+  padding-left: 20px;
+}
