@@ -1,48 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <link rel="stylesheet" href="../css/style.css" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="../css/style.css"/>
+    <link rel="stylesheet" href="../js/javascript.js"/>
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
     <title>Document</title>
   </head>
   <body>
+    <div class="fon"></div>
     <header class="header">
-      <div class="container">
-        <div class="header-inner">
-          <div class="logo">
-            <a class="logo__link" href="#">
-              <img class="logo_img" src="../img/Logo.png"
-            /></a>
-          </div>
+      <div class="container container-header">
+        <div class="header-logo"><img class="header-logo__img" src="../img/Logo.png" alt=""/></div>
+        <div class="header-menu">
           <nav class="menu">
-            <ul class="menu__list">
-              <li class="menu__list-item">
-                <a class="menu__link" href="#">Home</a>
-              </li>
-              <li class="menu__list-item">
-                <a class="menu__link" href="#">About Us</a>
-              </li>
-              <li class="menu__list-item">
-                <a class="menu__link" href="#">Services</a>
-              </li>
-              <li class="menu__list-item">
-                <a class="menu__link" href="#">Careers</a>
-              </li>
-              <li class="menu__list-item">
-                <a class="menu__link" href="#">News</a>
-              </li>
-              <li class="menu__list-item">
-                <a class="menu__link" href="#">Documentation</a>
-              </li>
+            <ul class="menu-inner">
+              <li class="menu-inner__items menu-inner__items--active"><a class="header__link" href="#">Home</a></li>
+              <li class="menu-inner__items"><a class="header__link" href="#">About Us</a></li>
+              <li class="menu-inner__items"><a class="header__link" href="#">Services</a></li>
+              <li class="menu-inner__items"><a class="header__link" href="#">Careers</a></li>
+              <li class="menu-inner__items"><a class="header__link" href="#">News</a></li>
+              <li class="menu-inner__items"><a class="header__link" href="#">Documentation</a></li>
             </ul>
           </nav>
+        </div>
+        <div class="header-registr">
           <div class="buttons">
-            <input class="buttons-login" type="submit" value="LOGIN" />
-            <input class="buttons-registr" type="submit" value="REGISTR" />
+            <input class="buttons__login" type="button" value="LOGIN"/>
+            <input class="buttons__register" type="button" value="REGISTER"/>
           </div>
         </div>
       </div>
     </header>
+    <div class="fon"></div>
+    <header class="header">
+      <div class="container container-header">
+        <div class="header-logo"><img class="header-logo__img" src="../img/Logo.png"/></div>
+        <div class="header-menu">
+          <nav class="menu">
+            <ul class="menu-inner">
+              <li class="menu-inner__items menu-inner__items--active"><a class="header__link" href="#">Home</a></li>
+              <li class="menu-inner__items"><a class="header__link" href="#">About Us</a></li>
+              <li class="menu-inner__items"><a class="header__link" href="#">Services</a></li>
+              <li class="menu-inner__items"><a class="header__link" href="#">Careers</a></li>
+              <li class="menu-inner__items"><a class="header__link" href="#">News</a></li>
+              <li class="menu-inner__items"><a class="header__link" href="#">Documentation</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="header-authorized">
+          <div class="authorized">
+            <div class="authorized__dividing"><img class="authorized__img" src="../img/Rectangle.jpg"/></div>
+            <div class="authorized__user">Cosmin Negoita</div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="fon"></div>
+    <footer class="footer">
+      <div class="container container-footer">
+        <nav class="widget">
+          <div class="description">
+            <div class="description__logo"><img class="desription__logo__img" src="../img/Logo.png" alt=""/></div>
+            <div class="description__text">Lorem ipsum dolor sit amet consectetur adipiscing elit aliquam eget nullam pellentesque aliquam curabitur cociis.</div>
+          </div>
+          <ul class="menu-nav">
+            <li class="menu-nav__items menu-nav__items--active"><a class="footer__link" href="#">Navigation</a></li>
+            <li class="menu-nav__items"><a class="footer__link" href="#">About Us</a></li>
+            <li class="menu-nav__items"><a class="footer__link" href="#">News</a></li>
+            <li class="menu-nav__items"><a class="footer__link" href="#">Support</a></li>
+            <li class="menu-nav__items"><a class="footer__link" href="#">Products</a></li>
+          </ul>
+          <ul class="menu-nav">
+            <li class="menu-nav__items menu-nav__items--active"><a class="footer__link" href="#">About Us</a></li>
+            <li class="menu-nav__items"><a class="footer__link" href="#">Who we are</a></li>
+            <li class="menu-nav__items"><a class="footer__link" href="#">Our team</a></li>
+            <li class="menu-nav__items"><a class="footer__link" href="#">Careers</a></li>
+            <li class="menu-nav__items"><a class="footer__link" href="#">Investors</a></li>
+          </ul>
+          <ul class="menu-nav">
+            <li class="menu-nav__items menu-nav__items--active"><a class="footer__link" href="#">Support</a></li>
+            <li class="menu-nav__items"><a class="footer__link" href="#">Documentation</a></li>
+            <li class="menu-nav__items"><a class="footer__link" href="#">Community</a></li>
+            <li class="menu-nav__items"><a class="footer__link" href="#">Get in Touch</a></li>
+          </ul>
+        </nav>
+      </div>
+    </footer>
+    <hr class="widget-copy"/>
+    <footer class="footer">
+      <div class="container container-footer">
+        <div class="copyright">
+          <div class="copyright__text">Copyright © 2018 Toxin UI Kit. All rights reserved.</div>
+          <div class="copyright__icons"><a class="footer__twit" href="#"><img class="footer__twit-img" src="../img/twit.jpg" alt=""/></a><a class="footer__face" href="#"><img class="footer__face-img" src="../img/face.jpg" alt=""/></a><a class="footer__inst" href="#"><img class="footer__inst-img" src="../img/inst.jpg" alt=""/></a></div>
+        </div>
+      </div>
+    </footer>
+    <div class="fon"></div>
   </body>
 </html>

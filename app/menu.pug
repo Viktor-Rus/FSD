@@ -2,47 +2,111 @@
 html(lang="en")
     head
         meta(charset="UTF-8")
-        link(rel="stylesheet", href="../css/style.css")
         meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        link(rel="stylesheet", href="../css/style.css")
+        link(rel="stylesheet", href="../js/javascript.js")
+        script(src="https://code.jquery.com/jquery-3.5.1.js")
+        
         title Document
     body
+        .fon
         header.header
-            .container
-               .header-inner
-                    .logo
-                        |
-                        |
-                        a(href="#").logo__link
-                            |
-                            |
-                            img(src="../img/Logo.png").logo_img
+            .container.container-header
+                .header-logo
+                    img(src="../img/Logo.png", alt="").header-logo__img
+                .header-menu
                     nav.menu
-                        ul.menu__list
-                            li.menu__list-item
-                                |
-                                |
-                                a(href="#").menu__link Home
-                            li.menu__list-item
-                                |
-                                |
-                                a(href="#").menu__link About Us
-                            li.menu__list-item
-                                |
-                                |
-                                a(href="#").menu__link Services
-                            li.menu__list-item
-                                |
-                                |
-                                a(href="#").menu__link Careers
-                            li.menu__list-item
-                                |
-                                |
-                                a(href="#").menu__link News
-                            li.menu__list-item
-                                |
-                                |
-                                a(href="#").menu__link Documentation
+                        ul.menu-inner
+                            li.menu-inner__items.menu-inner__items--active
+                                a(href="#").header__link Home
+                            li.menu-inner__items
+                                a(href="#").header__link About Us
+                            li.menu-inner__items
+                                a(href="#").header__link Services
+                            li.menu-inner__items
+                                a(href="#").header__link Careers
+                            li.menu-inner__items
+                                a(href="#").header__link News
+                            li.menu-inner__items
+                                a(href="#").header__link Documentation
+                .header-registr
                     .buttons
-                        input.buttons__login(type="submit" value="LOGIN")
-                        input.buttons__registr(type="submit" value="REGISTR")
-                            
+                        input.buttons__login(type="button", value="LOGIN")
+                        input.buttons__register(type="button", value="REGISTER")
+        .fon
+        header.header
+            .container.container-header
+                .header-logo
+                    img(src="../img/Logo.png").header-logo__img
+                .header-menu
+                    nav.menu
+                        ul.menu-inner
+                            li.menu-inner__items.menu-inner__items--active
+                                a(href="#").header__link Home
+                            li.menu-inner__items
+                                a(href="#").header__link About Us
+                            li.menu-inner__items
+                                a(href="#").header__link Services
+                            li.menu-inner__items
+                                a(href="#").header__link Careers
+                            li.menu-inner__items
+                                a(href="#").header__link News
+                            li.menu-inner__items
+                                a(href="#").header__link Documentation
+                .header-authorized
+                    .authorized
+                        .authorized__dividing
+                            img(src="../img/Rectangle.jpg").authorized__img
+                        .authorized__user Cosmin Negoita
+        .fon
+        footer.footer
+            .container.container-footer
+                nav.widget
+                    .description
+                        .description__logo
+                             img(src="../img/Logo.png", alt="").desription__logo__img
+                        .description__text Lorem ipsum dolor sit amet consectetur adipiscing elit aliquam eget nullam pellentesque aliquam curabitur cociis.
+                    ul.menu-nav
+                            li.menu-nav__items.menu-nav__items--active
+                                a(href="#").footer__link Navigation
+                            li.menu-nav__items
+                                a(href="#").footer__link About Us
+                            li.menu-nav__items
+                                a(href="#").footer__link News
+                            li.menu-nav__items
+                                a(href="#").footer__link Support
+                            li.menu-nav__items
+                                a(href="#").footer__link Products
+                    ul.menu-nav
+                            li.menu-nav__items.menu-nav__items--active
+                                a(href="#").footer__link About Us
+                            li.menu-nav__items
+                                a(href="#").footer__link Who we are
+                            li.menu-nav__items
+                                a(href="#").footer__link Our team
+                            li.menu-nav__items
+                                a(href="#").footer__link Careers
+                            li.menu-nav__items
+                                a(href="#").footer__link Investors
+                    ul.menu-nav
+                            li.menu-nav__items.menu-nav__items--active
+                                a(href="#").footer__link Support
+                            li.menu-nav__items
+                                a(href="#").footer__link Documentation
+                            li.menu-nav__items
+                                a(href="#").footer__link Community
+                            li.menu-nav__items
+                                a(href="#").footer__link Get in Touch
+        hr.widget-copy         
+        footer.footer
+            .container.container-footer
+                .copyright
+                    .copyright__text Copyright © 2018 Toxin UI Kit. All rights reserved.
+                    .copyright__icons
+                        a(href="#").footer__twit
+                            img(src="../img/twit.jpg", alt="").footer__twit-img
+                        a(href="#").footer__face
+                            img(src="../img/face.jpg", alt="").footer__face-img
+                        a(href="#").footer__inst
+                            img(src="../img/inst.jpg", alt="").footer__inst-img
+        .fon
